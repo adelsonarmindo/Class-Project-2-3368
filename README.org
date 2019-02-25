@@ -1,7 +1,7 @@
 #+TITLE: CIS 3368 Semester Project
 
-* <ADD YOUR NAME HERE>
-* <ADD YOUR SECTION NUMBER HERE> (NOT YOUR PSID!)
+* <Adelson Armindo>
+* <16525> (NOT YOUR PSID!)
 
 * Instructions
 - Fill out the placeholders above
