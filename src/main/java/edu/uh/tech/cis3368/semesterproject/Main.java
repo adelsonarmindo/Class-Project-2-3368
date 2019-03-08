@@ -54,12 +54,12 @@ public class Main extends Application {
 
         springContext.getAutowireCapableBeanFactory().autowireBean(this);
 
-//        employeeRepository.hashCode();
-//        Employee employee = new Employee();
-//        employee.setLastName("Granger");
-//        employeeRepository.save(employee);
+          employeeRepository.hashCode();
+          Employee employee = new Employee();
+          employee.setLastName("Granger");
+          employee.setFirstName("Harry");
+          employeeRepository.save(employee);
     }
-
 
     /**
      * The main entry point for all JavaFX applications.
