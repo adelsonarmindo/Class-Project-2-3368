@@ -19,7 +19,15 @@ public class Main extends Application {
     private Parent root;
 
     @Autowired
+    private CustomerRepository customerRepository;
+
+    @Autowired
     private EmployeeRepository employeeRepository;
+
+    @Autowired
+    private JobRepository jobRepository;
+
+
 
     public static void main(String[] args) {
         launch();
