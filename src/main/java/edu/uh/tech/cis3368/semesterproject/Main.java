@@ -83,4 +83,15 @@ public class Main extends Application {
         primaryStage.show();
 
     }
+
+
+    public class MainController {
+
+        public void main(String[] args){
+
+            SpringApplication.run(MainController.class,args);
+
+        }
+    }
+
 }
