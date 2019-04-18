@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.uh.tech.cis3368.semesterproject.EmployeeController">
+    <children>
+        <ListView fx:id="employeeList" layoutX="32.0" layoutY="73.0" onMouseClicked="#handleMouseClicked" prefHeight="200.0" prefWidth="220.0" />
+        <Label layoutX="322.0" layoutY="88.0" text="First Name" />
+        <Label layoutX="323.0" layoutY="186.0" text="Phone" />
+        <Label layoutX="323.0" layoutY="137.0" text="Last Name" />
+        <Label layoutX="326.0" layoutY="225.0" text="Email" />
+        <Label layoutX="192.0" layoutY="24.0" prefHeight="31.0" prefWidth="301.0" text="Employee Management">
+         <font>
+            <Font size="26.0" />
+         </font></Label>
+
+
+        <TextField fx:id="firstName" layoutX="404.0" layoutY="83.0" />
+        <TextField fx:id="lastName" layoutX="404.0" layoutY="132.0" />
+        <TextField fx:id="phone" layoutX="404.0" layoutY="181.0" />
+        <TextField fx:id="email" layoutX="404.0" layoutY="220.0" />
+
+
+        <Button fx:id="btnAddEmployee" layoutX="429.0" layoutY="269.0" mnemonicParsing="false" onAction="#handleAddUpdateButton" text="New Employee" />
+        <Button fx:id="btnDeleteEmployee" layoutX="429.0" layoutY="315.0" mnemonicParsing="false" onAction="#deleteEmployee" text="Delete Employee" />
+        <Button fx:id="btnAddEmployee1" layoutX="87.0" layoutY="283.0" mnemonicParsing="false" onAction="#handleClearSelection" text="Clear Selection" />
+        <Button fx:id="btnAddEmployee11" layoutX="266.0" layoutY="399.0" mnemonicParsing="false" onAction="#handleDone" text="Done" />
+    </children>
+
+
+
+
+
+
+</AnchorPane>

@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="edu.uh.tech.cis3368.semesterproject.MainController"
-            prefHeight="400.0" prefWidth="600.0">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.uh.tech.cis3368.semesterproject.MainController">
+   <children>
+      <Button layoutX="67.0" layoutY="66.0" mnemonicParsing="false" onAction="#openCustomerWindow" prefHeight="27.0" prefWidth="78.0" text="Customer" />
+      <Button layoutX="67.0" layoutY="131.0" mnemonicParsing="false" onAction="#openEmployeeWindow" text="Employee" />
 
+      <Button layoutX="67.0" layoutY="187.0" mnemonicParsing="false" onAction="#openJobWindow" prefHeight="27.0" prefWidth="78.0" text="Job" />
+      <Button layoutX="304.0" layoutY="125.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="155.0" text="Exit" />
+
+   </children>
 </AnchorPane>

@@ -87,8 +87,9 @@ public class Main extends Application {
      */
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setScene(new Scene(root,300,300));
+        primaryStage.setScene(new Scene(root,600,400));
         primaryStage.show();
+        primaryStage.setTitle("Java");
 
     }
 
